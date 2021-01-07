@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body id="level1">
+
+   <!-- index.html -->
+
+           <div class="header">
+        <header>
+            <h1>Level 1 </h1>
+        </header>
+        
+             <section class="scoreboard">
+            	<ul class="stars">
+        	    	<li><i class="fa fa-star"></i></li>
+        		    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+            	</ul>
+
+
+        	<span class="moves">0</span> Move(s)
+
+            <div class="timer">
+            </div>
+
+        </section>
+
+
+
+<!--The cards to the memory -->
+
+<section class="game">
+
+  <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+    <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+    <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+     <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+    <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+   <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+  
+
+    <div class="cardlevel1">
+    <img class="front-face" src="img/react.svg" alt="React">
+    <img class="back-face" src="images/level1/level1back.jpg" alt="Memory Card1">
+    </div>
+
+</section>
+
+    <script src="index.js"></script>
+
+<!--A button to restart the game-->
+
+    <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+            </div>
+            
+<!--A button to go back to the start page, so its easy for the user to change level or to get to the how to play instructions-->
+
+             <a href="index.html"><button class="button">Go back to main menu</button></a>
+
+
+
+
+<!--A button to go back to the start page, so its easy for the user to change level or to get to the how to play instructions-->
+
+
+    <div id="popup1" class="overlay">
+                 <div class="popups">
+                     <h2>Congratulations</h2>
+                    <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                  </div>
+
+
+                    <button id="buttonplay"onclick="playAgain()">
+                    Play again</a>
+                    </button>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

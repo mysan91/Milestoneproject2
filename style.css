@@ -1,15 +1,48 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+}
+
+
+
+/*------The backgrounds images is set with cover so its adjusts to the pages.----*/
+
+
 #indexpage {
-    background-image: url("");
+    background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/index/index.jpg");
+    background-size: cover; 
+}
+
+#level1 {
+   background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/level1/code.jpg");
     background-size: cover; 
 }
 
 #level2 {
+   background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/level2/starwars.jpg");
+    background-size: cover; 
+}
+
+#level3 {
    background-image: url("");
     background-size: cover; 
 }
 
+.game {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
+/*-----------------------------------------------Index page----------------------------------------------*/
 
 /*------The styling of the main buttons in the index/start page----*/
 .button:hover {
@@ -23,5 +56,10 @@
     display: inline-block;
     font-size: 16px;
 }
+
+
+
+
+
 
 
