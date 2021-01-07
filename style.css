@@ -42,6 +42,23 @@ body {
   flex-wrap: wrap;
 }
 
+.cardlevel1 {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    position: relative;
+    margin: 5px;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.cardlevel1:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+
+
 /*-----------------------------------------------Index page----------------------------------------------*/
 
 /*------The styling of the main buttons in the index/start page----*/
