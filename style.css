@@ -20,7 +20,7 @@ body {
 }
 
 #level1 {
-   background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/level1/code.jpg");
+   background-image: url("<a href='https://www.freepik.com/vectors/technology'>Technology vector created by starline - www.freepik.com</a>");
     background-size: cover; 
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #level3 {
-   background-image: url("");
+   background-color: aqua;
     background-size: cover; 
 }
 
