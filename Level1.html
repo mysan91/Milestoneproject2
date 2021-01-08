@@ -12,33 +12,17 @@
 
    <!-- index.html -->
 
-           <div class="header">
-        <header>
-            <h1>Level 1 </h1>
-        </header>
+     
+            <h1> Level 1 </h1>
+       
         
-             <section class="scoreboard">
-            	<ul class="stars">
-        	    	<li><i class="fa fa-star"></i></li>
-        		    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-            	</ul>
-
-
-        	<span class="moves">0</span> Move(s)
-
-            <div class="timer">
-            </div>
-
-        </section>
+            
 
 
 
 <!--The cards to the memory 2 identical cards at each images. -->
 
-<section class="game">
+<section class="container">
 
   <div class="level1">
     <img class="front-face" src="images/level1/co.png" alt="Co">
@@ -147,10 +131,7 @@
 
 <!--A button to restart the game-->
 
-    <div class="restart" onclick=startGame()>
-        		<i class="fa fa-repeat"></i>
-            </div>
-            
+    
 <!--A button to go back to the start page, so its easy for the user to change level or to get to the how to play instructions-->
 
              <a href="index.html"><button class="button">Go back to main menu</button></a>
@@ -161,21 +142,5 @@
 <!--A button to go back to the start page, so its easy for the user to change level or to get to the how to play instructions-->
 
 
-    <div id="popup1" class="overlay">
-                 <div class="popups">
-                     <h2>Congratulations</h2>
-                    <div class="content-2">
-                    <p>You made <span id=finalMove> </span> moves </p>
-                    <p>in <span id=totalTime> </span> </p>
-                    <p>Rating:  <span id=starRating></span></p>
-                  </div>
-
-
-            
-
-            </div>
-        </div>
-
-    </div>
 </body>
 </html>
