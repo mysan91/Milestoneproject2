@@ -151,3 +151,12 @@ container {
   align-content: center;
   }
 
+
+
+  /*-----------------------------------------------How to Play----------------------------------------------*/
+
+  .container {
+      background-color: black;
+      height: 600px;
+      width: 100%;
+  }
