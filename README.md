@@ -1,4 +1,4 @@
-<img src="" style="width:850px">
+<img src="https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/memory.JPG" style="width:850px">
 
 
 # Memory Game
@@ -16,10 +16,10 @@ I started by figuring out how I wanted the game to be structured and what differ
 Since I myself prefer to be able to choose which level I want at each time I drive, I chose to have a menu where you can choose which level suits you best.
 
 
-I decided to start with 3 different levels. The first level is with 16 cards and the second level is with 30 cards and the last is with 36 cards.
+I decided to start with 3 different levels. The first level is with 16 cards and the second level is with 24 cards and the last is with 36 cards.
 
 
-The first level is done with different programming languages ​​and the second was with different Starwar characters. And the last one was with icons that I downloaded from Iconfinder.com
+The first level is done with different programming languages and the second was with different Starwar characters. And the last one was with icons that I downloaded from Iconfinder.com
 
 
 I started by building the first page and also the page with How to play the game. Then I started with level 1 and chose the pictures that would be included.
@@ -52,7 +52,7 @@ Then I built the structure of the game and made sure the page was responsive. Th
 
  ### Features that is implemented:
  * 	HTML
- 	HTML was used for the structure of the website.
+ HTML was used for the structure of the website.
 *  Javascript 
     Javascript was used for the functions on the memory game. And also the restart button and the Scoreboard. 
  * CSS 
@@ -84,15 +84,16 @@ Then I built the structure of the game and made sure the page was responsive. Th
 
 
 ## Testing
-
-
+I have been coding the whole project in visual studios due to some problems with the commit function. When i have been trying to commit code it just says that its up to date and no git commit/push can be done.  
 
 <img src="" style="width:500px">
 
 
 ### Testing Responsiveness On Different Devices
 
-* Hp laptop 
+* Hp laptop
+* Ipad 
+* Iphone 7/8/9 
 
 
 
@@ -106,4 +107,5 @@ The page did refresh and i got message that my page is published at https://mysa
 
 
 ## Credits
+https://www.iconfinder.com/ 
 
